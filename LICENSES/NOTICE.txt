@@ -1,0 +1,27 @@
+Third-party model licences — Sight Buddy STT models
+===================================================
+
+The model files distributed in this repository's releases are unmodified
+redistributions of third-party open-source models. Each retains its own
+licence. Full licence texts are in this folder.
+
+  base.en-encoder.int8.onnx
+  base.en-decoder.int8.onnx
+  base.en-tokens.txt
+      Whisper base.en (int8) — OpenAI Whisper.
+      Model: MIT — see whisper-MIT.txt (Copyright (c) 2022 OpenAI).
+      ONNX export/quantisation by sherpa-onnx (k2-fsa):
+      Apache-2.0 — see sherpa-onnx-Apache-2.0.txt.
+
+  silero_vad.onnx
+      Silero VAD — Silero Team.
+      MIT — see silero-vad-MIT.txt (Copyright (c) 2020-present Silero Team).
+
+Upstream sources:
+  OpenAI Whisper   https://github.com/openai/whisper
+  Silero VAD       https://github.com/snakers4/silero-vad
+  sherpa-onnx      https://github.com/k2-fsa/sherpa-onnx
+
+Drophouse Ltd hosts these files here only to provide stable, versioned
+download URLs for the Sight Buddy app. No claim of ownership is made over
+the models; all rights remain with their respective authors.

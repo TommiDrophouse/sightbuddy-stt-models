@@ -10,3 +10,13 @@ Model files downloaded at runtime by the [Sight Buddy](https://www.drophouse.uk/
 | `silero_vad.onnx` | Voice activity detection | [Silero VAD](https://github.com/snakers4/silero-vad) | MIT |
 
 These files are unmodified redistributions of the sherpa-onnx published conversions, hosted here for stable download URLs and versioning.
+
+## Licences
+
+Each model keeps its own licence; full texts are in [`LICENSES/`](LICENSES/):
+
+- Whisper — [MIT](LICENSES/whisper-MIT.txt) (© 2022 OpenAI)
+- Silero VAD — [MIT](LICENSES/silero-vad-MIT.txt) (© 2020–present Silero Team)
+- sherpa-onnx (ONNX export/quantisation) — [Apache-2.0](LICENSES/sherpa-onnx-Apache-2.0.txt) (k2-fsa)
+
+See [`LICENSES/NOTICE.txt`](LICENSES/NOTICE.txt) for which licence covers which file. Drophouse Ltd claims no ownership over these models; all rights remain with their respective authors.
